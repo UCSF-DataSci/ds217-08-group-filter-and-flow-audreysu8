@@ -1,3 +1,4 @@
+Assignment 8
 encounter_id,patient_id,provider_id,encounter_date,encounter_type,diagnosis_code,procedure_code,service_charge,insurance_paid,patient_paid,provider_name,provider_type,facility_id,specialty,years_experience,license_number,facility_name,facility_type,region,beds,established_date,total encounter charges,facility mean years_experience,facility std years_experience,facility normalized years_experience,facility total encounter charges
 ENC00001,PAT01564,PR0259,2023-08-21,Office Visit,M79.3,99213,345.03,290.33,54.7,Quinn Anderson,Nurse,FAC005,Pediatrics,11,LIC000259,Cardiology Specialty Center,Specialty Center,West,21,2016-09-26,690.06,18.684,11.242104510617898,-0.6835019184123975,608578.76
 ENC00002,PAT00296,PR0258,2023-09-11,Inpatient,N18.9,85025,550.48,482.51,67.97,Drew Martinez,Therapist,FAC005,Endocrinology,19,LIC000258,Cardiology Specialty Center,Specialty Center,West,21,2016-09-26,1100.96,18.684,11.242104510617898,0.02810861611378408,608578.76
