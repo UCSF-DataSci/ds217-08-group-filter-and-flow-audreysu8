@@ -1,0 +1,22 @@
+=== Crosstab of Facility Type Vs Region with Counts ===
+facility_type,North,South,West
+Hospital,0,559,0
+Specialty Center,0,890,962
+Urgent Care,588,946,1055
+
+
+=== Crosstab with Margins (Row and Column Totals) ===
+facility_type,North,South,West,All
+Hospital,0,559,0,559
+Specialty Center,0,890,962,1852
+Urgent Care,588,946,1055,2589
+All,588,2395,2017,5000
+
+
+=== Multi-Dimensional Crosstab Showing Facility Type x Encounter Type x Region Combinations ===
+region,North,North,North,North,North,South,South,South,South,South,West,West,West,West,West
+encounter_type,Emergency,Inpatient,Lab,Office Visit,Outpatient Procedure,Emergency,Inpatient,Lab,Office Visit,Outpatient Procedure,Emergency,Inpatient,Lab,Office Visit,Outpatient Procedure
+facility_type,,,,,,,,,,,,,,,
+Hospital,0,0,0,0,0,106,127,107,102,117,0,0,0,0,0
+Specialty Center,0,0,0,0,0,186,177,182,179,166,202,162,230,169,199
+Urgent Care,127,102,118,123,118,205,188,182,169,202,213,221,219,208,194

@@ -1,0 +1,36 @@
+=== Facility Provider Stats ===
+facility_name,mean,std,min,max,range
+Cardiology Specialty Center,18.684,11.2421045106179,2.0,37.0,35.0
+City General Hospital,24.024952015355087,10.899424439973565,2.0,39.0,37.0
+Community Health Clinic,17.547619047619047,9.936053349357177,1.0,38.0,37.0
+Emergency Medical Center,21.56803455723542,10.914822412351723,2.0,39.0,37.0
+Northside Urgent Care,20.106177606177607,11.536600593447263,1.0,39.0,38.0
+Oncology Treatment Center,21.457960644007155,9.387397377619106,2.0,39.0,37.0
+Pediatric Care Center,19.84543325526932,11.015545843154907,1.0,39.0,38.0
+Primary Care Clinic,20.0,11.978650567335066,1.0,39.0,38.0
+Regional Medical Center,18.614117647058823,9.198635472807814,3.0,38.0,35.0
+Surgical Specialty Center,17.573556797020483,11.779483849089733,1.0,39.0,38.0
+
+
+=== Top Providers by Facility===
+,facility_name,provider_id,provider_name,years_experience,specialty,encounter_count
+25,Cardiology Specialty Center,PR0279,Jamie Jones,11,Oncology,21
+28,Cardiology Specialty Center,PR0310,Cameron Johnson,14,Emergency Medicine,17
+13,City General Hospital,PR0106,Avery Jones,7,Neurology,20
+24,City General Hospital,PR0249,Quinn Martinez,34,Cardiology,18
+51,Community Health Clinic,PR0416,Avery Smith,24,Pediatrics,20
+7,Community Health Clinic,PR0058,Cameron Wilson,5,Emergency Medicine,17
+44,Emergency Medical Center,PR0459,Taylor Rodriguez,11,Psychiatry,18
+15,Emergency Medical Center,PR0158,Avery Martinez,39,Psychiatry,15
+27,Northside Urgent Care,PR0266,Taylor Rodriguez,3,Psychiatry,18
+39,Northside Urgent Care,PR0410,Cameron Miller,4,Psychiatry,16
+20,Oncology Treatment Center,PR0144,Jordan Johnson,34,Endocrinology,18
+2,Oncology Treatment Center,PR0006,Riley Williams,14,Endocrinology,17
+38,Pediatric Care Center,PR0424,Cameron Davis,22,Primary Care,14
+23,Pediatric Care Center,PR0292,Taylor Wilson,34,Radiology,14
+38,Primary Care Clinic,PR0368,Jamie Garcia,8,Primary Care,18
+9,Primary Care Clinic,PR0096,Quinn Miller,13,Oncology,17
+31,Regional Medical Center,PR0367,Sam Jones,28,Oncology,17
+23,Regional Medical Center,PR0211,Taylor Davis,16,Pediatrics,16
+31,Surgical Specialty Center,PR0334,Riley Miller,20,Orthopedics,19
+26,Surgical Specialty Center,PR0283,Cameron Smith,5,Oncology,17

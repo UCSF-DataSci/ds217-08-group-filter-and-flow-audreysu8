@@ -1,0 +1,20 @@
+=== Wide Format of GroupBy ===
+,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,service_charge,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid
+,mean,mean,mean,sum,sum,sum,count,count,count,min,min,min,max,max,max,mean,mean,mean,sum,sum,sum,count,count,count,min,min,min,max,max,max,mean,mean,mean,sum,sum,sum,count,count,count,min,min,min,max,max,max
+region,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West,North,South,West
+facility_type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hospital,,658.7163685152058,,,368222.45,,,559.0,,,50.45,,,8930.72,,,532.794114490161,,,297831.91,,,559.0,,,37.64,,,7916.83,,,125.92225402504471,,,70390.54,,,559.0,,,7.43,,,1782.43,
+Specialty Center,,629.0650786516854,600.7628586278586,,559867.92,577933.87,,890.0,962.0,,52.26,50.41,,8619.74,8268.92,,500.4486853932585,480.20821205821204,,445399.33,461960.3,,890.0,962.0,,41.52,38.98,,7657.47,6479.16,,128.61639325842697,120.55464656964658,,114468.59,115973.57,,890.0,962.0,,6.83,7.39,,1937.82,1789.76
+Urgent Care,610.0710034013606,653.3291437632136,681.1661895734596,358721.75,618049.37,718630.33,588.0,946.0,1055.0,55.67,51.93,52.32,8849.09,8575.71,8534.91,487.16052721088437,523.4721353065539,546.0700947867298,286450.39,495204.64,576103.95,588.0,946.0,1055.0,44.7,41.61,37.68,6984.55,7066.34,7342.44,122.91047619047619,129.85700845665963,135.09609478672985,72271.36,122844.73,142526.38,588.0,946.0,1055.0,6.29,5.73,7.27,1932.58,2248.12,2232.27
+
+
+=== Long Format of GroupBy===
+,,service_charge,service_charge,service_charge,service_charge,service_charge,insurance_paid,insurance_paid,insurance_paid,insurance_paid,insurance_paid,patient_paid,patient_paid,patient_paid,patient_paid,patient_paid
+,,mean,sum,count,min,max,mean,sum,count,min,max,mean,sum,count,min,max
+facility_type,region,,,,,,,,,,,,,,,
+Hospital,South,658.7163685152058,368222.45,559.0,50.45,8930.72,532.794114490161,297831.91,559.0,37.64,7916.83,125.92225402504471,70390.54,559.0,7.43,1782.43
+Specialty Center,South,629.0650786516854,559867.92,890.0,52.26,8619.74,500.4486853932585,445399.33,890.0,41.52,7657.47,128.61639325842697,114468.59,890.0,6.83,1937.82
+Specialty Center,West,600.7628586278586,577933.87,962.0,50.41,8268.92,480.20821205821204,461960.3,962.0,38.98,6479.16,120.55464656964658,115973.57,962.0,7.39,1789.76
+Urgent Care,North,610.0710034013606,358721.75,588.0,55.67,8849.09,487.16052721088437,286450.39,588.0,44.7,6984.55,122.91047619047619,72271.36,588.0,6.29,1932.58
+Urgent Care,South,653.3291437632136,618049.37,946.0,51.93,8575.71,523.4721353065539,495204.64,946.0,41.61,7066.34,129.85700845665963,122844.73,946.0,5.73,2248.12
+Urgent Care,West,681.1661895734596,718630.33,1055.0,52.32,8534.91,546.0700947867298,576103.95,1055.0,37.68,7342.44,135.09609478672985,142526.38,1055.0,7.27,2232.27
