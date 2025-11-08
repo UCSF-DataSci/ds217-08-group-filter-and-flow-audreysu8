@@ -1,7 +1,16 @@
-facility_type,region,Emergency,Inpatient,Lab,Office Visit,Outpatient Procedure
-Hospital,South,106,127,107,102,117
-Specialty Center,South,186,177,182,179,166
-Specialty Center,West,202,162,230,169,199
-Urgent Care,North,127,102,118,123,118
-Urgent Care,South,205,188,182,169,202
-Urgent Care,West,213,221,219,208,194
+facility_type,encounter_type,North,South,West
+Hospital,Emergency,0,106,0
+Hospital,Inpatient,0,127,0
+Hospital,Lab,0,107,0
+Hospital,Office Visit,0,102,0
+Hospital,Outpatient Procedure,0,117,0
+Specialty Center,Emergency,0,186,202
+Specialty Center,Inpatient,0,177,162
+Specialty Center,Lab,0,182,230
+Specialty Center,Office Visit,0,179,169
+Specialty Center,Outpatient Procedure,0,166,199
+Urgent Care,Emergency,127,205,213
+Urgent Care,Inpatient,102,188,221
+Urgent Care,Lab,118,182,219
+Urgent Care,Office Visit,123,169,208
+Urgent Care,Outpatient Procedure,118,202,194
